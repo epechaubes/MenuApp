@@ -1,0 +1,15 @@
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Stub.deps.json
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Stub.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.AssemblyInfoInputs.cache
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.AssemblyInfo.cs
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Stub.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Model.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Xamarin.Forms.Core.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Xamarin.Forms.Platform.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Xamarin.Forms.Core.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\bin\Debug\netstandard2.0\Xamarin.Forms.Core.xml
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.csprojAssemblyReference.cache
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.csproj.CopyComplete
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.pdb
