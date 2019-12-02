@@ -7,5 +7,7 @@
         <Entry Placeholder="Email" Text="{Binding Email}"></Entry>
         <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}"></Entry>
         <Button Command="{Binding LoginCommand}" Text="Login" TextColor="White" BackgroundColor="Green"></Button>
+        <Button Command="{Binding NavigateToRegisterPageCommand}" Text="Register" TextColor="White" BackgroundColor="Green"></Button>
+        <Button Command = "{Binding DeleteAllUsersCommand}" Text="Delete all users" TextColor="White" BackgroundColor="Red"></Button>
     </StackLayout>
 </ContentPage>

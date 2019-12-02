@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuApp.Views.RegisterPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Text="Go back to Sign in" VerticalOptions="Start" HorizontalOptions="Start" Margin="20, 10"
+                    Command="{Binding GoBackToLoginCommand}"/>
+            <Image VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Source="logo.png"
+                   Margin="50, 60"/>
+            <Grid Grid.Row="1"  VerticalOptions="Start" RowSpacing="15" ColumnSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.ColumnSpan="2" 
+                       Text="New Account" 
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold" 
+                       FontSize="Large"/>
+                <Label Text="Email : " Grid.Row="1" HorizontalOptions="End"/>
+                <Label Text="Password : " Grid.Row="2" HorizontalOptions="End"/>
+                <Label Text="Confirm password : " Grid.Row="3" HorizontalOptions="End"/>
+                <Entry Grid.Column="1" Grid.Row="1" Margin="0, 0, 30, 0" Text="{Binding Email}" />
+                <Entry Grid.Column="1" Grid.Row="2" Margin="0, 0, 30, 0" IsPassword="True" Text="{Binding Password}"/>
+                <Entry Grid.Column="1" Grid.Row="3" Margin="0, 0, 30, 0" IsPassword="True" Text="{Binding ConfirmPassword}"/>
+                <Button Text="Sign up" Grid.Row="4" Grid.ColumnSpan="2" HorizontalOptions="Center"
+                        Command="{Binding RegisterCommand}"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

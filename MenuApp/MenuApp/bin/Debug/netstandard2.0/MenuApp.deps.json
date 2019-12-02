@@ -11,9 +11,9 @@
         "dependencies": {
           "Model": "1.0.0",
           "NETStandard.Library": "2.0.3",
-          "SQLite.Net-PCL": "3.1.1",
+          "SQLite": "1.0.0",
           "Stub": "1.0.0",
-          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.709249"
         },
         "runtime": {
@@ -57,7 +57,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -92,10 +92,18 @@
           "Model.dll": {}
         }
       },
-      "Stub/1.0.0": {
+      "SQLite/1.0.0": {
         "dependencies": {
           "Model": "1.0.0",
-          "SQLite.Net-PCL": "3.1.1"
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "SQLite.dll": {}
+        }
+      },
+      "Stub/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0"
         },
         "runtime": {
           "Stub.dll": {}
@@ -144,12 +152,12 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.2.0": {
+    "Xamarin.Essentials/1.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
-      "path": "xamarin.essentials/1.2.0",
-      "hashPath": "xamarin.essentials.1.2.0.nupkg.sha512"
+      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
+      "path": "xamarin.essentials/1.3.1",
+      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
     },
     "Xamarin.Forms/4.2.0.709249": {
       "type": "package",
@@ -159,6 +167,11 @@
       "hashPath": "xamarin.forms.4.2.0.709249.nupkg.sha512"
     },
     "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLite/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

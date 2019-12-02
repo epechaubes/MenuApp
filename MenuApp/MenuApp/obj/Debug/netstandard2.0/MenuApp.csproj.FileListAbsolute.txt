@@ -11,8 +11,9 @@ C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\bin\Debu
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\bin\Debug\netstandard2.0\Stub.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\bin\Debug\netstandard2.0\Model.pdb
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\bin\Debug\netstandard2.0\Stub.pdb
-C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.0\MenuApp.csproj.CopyComplete
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.0\MenuApp.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.0\ref\MenuApp.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.0\MenuApp.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\bin\Debug\netstandard2.0\SQLite.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\bin\Debug\netstandard2.0\SQLite.pdb

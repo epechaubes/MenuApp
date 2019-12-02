@@ -1,5 +1,4 @@
 ﻿using MenuApp.ViewModels;
-using Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,11 +7,10 @@ namespace MenuApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        public LoginPage(MenuAppDatabase database)
+        public LoginPage()
         {
             InitializeComponent();
-            BindingContext = new LoginViewModel((App.Current as App).Manager, database);
-
+            BindingContext = new LoginViewModel((App.Current as App).Manager);
         }
     }
 }

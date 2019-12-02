@@ -62,7 +62,6 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="SQLite_iOS.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -121,8 +120,8 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SQLite.Net-PCL">
-      <Version>3.1.1</Version>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
@@ -132,6 +131,10 @@
     <ProjectReference Include="..\..\Model\Model.csproj">
       <Project>{0e3af9d7-7a6c-4050-9a6d-7203fd77cdc0}</Project>
       <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SQLite\SQLite.csproj">
+      <Project>{bce5d9c6-09bf-4415-93d6-091f2b7f99b1}</Project>
+      <Name>SQLite</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Stub\Stub.csproj">
       <Project>{184396f4-2cda-4c5b-8324-42039d3a11db}</Project>

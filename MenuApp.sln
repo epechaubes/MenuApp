@@ -5,16 +5,22 @@ VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuApp.Android", "MenuApp\MenuApp.Android\MenuApp.Android.csproj", "{96CBFA0C-DE92-442A-883C-9DD0E6D771B7}"
 	ProjectSection(ProjectDependencies) = postProject
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1} = {BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}
 		{0E3AF9D7-7A6C-4050-9A6D-7203FD77CDC0} = {0E3AF9D7-7A6C-4050-9A6D-7203FD77CDC0}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuApp.iOS", "MenuApp\MenuApp.iOS\MenuApp.iOS.csproj", "{399417AD-9B5E-4D68-944E-281B4FD24EA7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1} = {BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuApp", "MenuApp\MenuApp\MenuApp.csproj", "{91AB8044-0559-4811-ABB3-033B905296CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuApp", "MenuApp\MenuApp\MenuApp.csproj", "{91AB8044-0559-4811-ABB3-033B905296CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{0E3AF9D7-7A6C-4050-9A6D-7203FD77CDC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{0E3AF9D7-7A6C-4050-9A6D-7203FD77CDC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "Stub\Stub.csproj", "{184396F4-2CDA-4C5B-8324-42039D3A11DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stub", "Stub\Stub.csproj", "{184396F4-2CDA-4C5B-8324-42039D3A11DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLite", "SQLite\SQLite.csproj", "{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +110,18 @@ Global
 		{184396F4-2CDA-4C5B-8324-42039D3A11DB}.Release|iPhone.Build.0 = Release|Any CPU
 		{184396F4-2CDA-4C5B-8324-42039D3A11DB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{184396F4-2CDA-4C5B-8324-42039D3A11DB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Release|iPhone.Build.0 = Release|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BCE5D9C6-09BF-4415-93D6-091F2B7F99B1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

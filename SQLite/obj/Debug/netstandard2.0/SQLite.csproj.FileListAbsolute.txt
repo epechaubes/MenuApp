@@ -1,0 +1,12 @@
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\SQLite.csprojAssemblyReference.cache
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\SQLite.AssemblyInfoInputs.cache
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\SQLite.AssemblyInfo.cs
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\bin\Debug\netstandard2.0\SQLite.deps.json
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\bin\Debug\netstandard2.0\SQLite.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\bin\Debug\netstandard2.0\Model.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\SQLite.csproj.CopyComplete
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\bin\Debug\netstandard2.0\SQLite.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\SQLite.dll
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\SQLite.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\SQLite\obj\Debug\netstandard2.0\XamlC.stamp

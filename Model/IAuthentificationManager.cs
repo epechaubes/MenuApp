@@ -1,11 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Model
 {
+    /// <summary>
+    /// Interface for authentification manager
+    /// </summary>
     public interface IAuthentificationManager
     {
-        bool Authenticate(string Email, string Password, MenuAppDatabase database);
+        /// <summary>
+        /// Trie to authenticate with email and password
+        /// </summary>
+        /// <param name="Email">Email of the user</param>
+        /// <param name="Password">Password of the user</param>
+        /// <returns>true if the authentication succeed</returns>
+        User Authenticate(string Email, string Password);
+
+        /// <summary>
+        /// Add a new user (email and password)
+        /// </summary>
+        /// <param name="Email">Email of the user</param>
+        /// <param name="Password">Password of the user</param>
+        /// <returns>The number of line added in the database</returns>
+        Task<int> AddUser(string Email, string Password);
+
+        /// <summary>
+        /// Delete all the users in the database
+        /// </summary>
+        void DeleteAllUsers();
     }
 }
