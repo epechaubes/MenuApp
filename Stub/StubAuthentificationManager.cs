@@ -17,18 +17,21 @@ namespace Stub
         /// <param name="Email">Email of the user</param>
         /// <param name="Password">Password of the user</param>
         /// <returns>true if the authentication succeed</returns>
-        public User Authenticate(string Email, string Password)
+        public bool Authenticate(string Email, string Password)
          {
             var user = users.Find(t => t.email == Email && t.password == Password);
             if (user != null)
             {
-                return user;
+                AuthenticatedUser = user;
+                return true;
             }
             else
             {
-                return null;
+                return false;
             }
          }
+
+        public User AuthenticatedUser { get; set; }
 
         /// <summary>
         /// Add a user 

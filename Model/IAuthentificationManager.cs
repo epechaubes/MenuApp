@@ -16,7 +16,7 @@ namespace Model
         /// <param name="Email">Email of the user</param>
         /// <param name="Password">Password of the user</param>
         /// <returns>true if the authentication succeed</returns>
-        User Authenticate(string Email, string Password);
+        bool Authenticate(string Email, string Password);
 
         /// <summary>
         /// Add a new user (email and password)
@@ -30,5 +30,7 @@ namespace Model
         /// Delete all the users in the database
         /// </summary>
         void DeleteAllUsers();
+
+        User AuthenticatedUser { get; }
     }
 }

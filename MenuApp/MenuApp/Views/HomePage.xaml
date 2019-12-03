@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuApp.Views.HomePage">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BorderWidth" Value="1"/>
+            <Setter Property="BorderColor" Value="White"/>
+            <Setter Property="BackgroundColor" Value="DarkOrange"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="Margin" Value="20"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="1" HorizontalOptions="Center" Source="logo.png"/>
+            <Button Grid.Row="2" Text="Compose Menus" ImageSource="compose.png"/>
+            <Button Grid.Row="3" Text="Check Menus" ImageSource="check.png"/>
+            <Button Grid.Row="4" Text="About" ImageSource="about.png"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

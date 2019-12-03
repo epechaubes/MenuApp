@@ -81,22 +81,18 @@ namespace MenuApp.ViewModels
         {
             if (Manager == null) return;
             //trie to authenticate
-            User result = Manager.Authenticate(Email, Password);
+            bool result = Manager.Authenticate(Email, Password);
             //if it fails ...
-            if(result == null)
+            if(result == false)
             {
-                App.Current.MainPage.DisplayAlert("Echec de l'authentification.", "L'email ne correspond à aucun utilisateur.", "Compris");
+                App.Current.MainPage.DisplayAlert("Echec de l'authentification.", "Identifiant ou mot de passe incorrect.", "Compris");
                 return;
             }
             //if it's a success, verify the password
-            if(Password == result.password)
-            {
-                App.Current.MainPage.DisplayAlert("Bonjour !", "Bienvenue sur votre espace.", "Continuer");
-                return;
-            }
             else
             {
-                App.Current.MainPage.DisplayAlert("Echec de l'authentification.", "Le mot de passe est incorrect.", "Compris");
+                App.Current.MainPage.DisplayAlert("Bonjour !", $"Bienvenue {Manager.AuthenticatedUser.email}. Vous êtes désormais sur votre espace personnel.", "Continuer");
+                App.Current.MainPage = new Views.MainPage();
             }
         }
 

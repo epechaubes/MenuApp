@@ -14,18 +14,21 @@ namespace SQLite
         /// <param name="Email">Email of the user</param>
         /// <param name="Password">Password of the user</param>
         /// <returns>true if the authentication succeed</returns>
-        public User Authenticate(string Email, string Password)
+        public bool Authenticate(string Email, string Password)
         {
             //trie to get a user in the database with a given email
             User searchUser = SQLiteManager.GetInstance().GetUserByEmail(Email).Result;
             //if no user with this email ...
-            if (searchUser == null)
+            if (searchUser == null || searchUser.password != Password)
             {
-                return null;
-            }           
+                return false;
+            }
             //else
-            return searchUser;
+            AuthenticatedUser = searchUser;
+            return true;
         }
+
+        public User AuthenticatedUser { get; set; }
 
         /// <summary>
         /// Add a new user (email and password)

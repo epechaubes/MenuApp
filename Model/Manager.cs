@@ -30,7 +30,9 @@ namespace Model
         /// <param name="Email">Email of the user</param>
         /// <param name="Password">Password of the user</param>
         /// <returns>true if the authentication succeed</returns>
-        public User Authenticate(string Email, string Password) => AuthentificationManager.Authenticate(Email, Password);
+        public bool Authenticate(string Email, string Password) => AuthentificationManager.Authenticate(Email, Password);
+
+        public User AuthenticatedUser => AuthentificationManager.AuthenticatedUser;
 
         /// <summary>
         /// Add a new user (email and password)

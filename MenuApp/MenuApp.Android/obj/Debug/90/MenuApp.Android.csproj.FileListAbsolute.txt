@@ -545,3 +545,8 @@ C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\res\drawable\logo.png
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\res\drawable\check.png
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\res\drawable\compose.png
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\res\drawable\about.png
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\res\drawable\cgi.png
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp.Android\obj\Debug\90\res\drawable\clubinfo.png
