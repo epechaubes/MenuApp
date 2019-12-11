@@ -6,8 +6,11 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"MenuApp.dll",
 		"Model.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.InputKit.dll",
 		"SQLite-net.dll",
 		"SQLite.dll",
+		"SQLiteNetExtensions.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",
@@ -55,6 +58,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
+		"Xamarin.Forms.SegmentedButton.dll",
 		"Xamarin.Forms.Xaml.dll",
 	};
 	public static String[] Dependencies = new String[]{

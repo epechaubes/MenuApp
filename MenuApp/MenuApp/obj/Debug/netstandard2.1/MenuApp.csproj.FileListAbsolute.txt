@@ -17,7 +17,6 @@ C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debu
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\MenuApp.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\ref\MenuApp.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\MenuApp.pdb
-C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\XamlC.stamp
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\Views\RegisterPage.xaml.g.cs
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\Views\MainPage.xaml.g.cs
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\Views\AboutPage.xaml.g.cs
@@ -25,3 +24,4 @@ C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debu
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\Views\ComposeMenuPage.xaml.g.cs
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\Views\HomePage.xaml.g.cs
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\Views\MenuPage.xaml.g.cs
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\MenuApp\MenuApp\obj\Debug\netstandard2.1\XamlC.stamp

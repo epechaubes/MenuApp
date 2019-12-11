@@ -1,5 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:segmentedButton="clr-namespace:Xamarin.Forms.SegmentedButton;assembly=Xamarin.Forms.SegmentedButton"
              x:Class="MenuApp.Views.ComposeMenuPage">
+    <StackLayout>
+        
+        <Picker Title="Choisir un jour de la semaine"                
+                ItemsSource="{Binding ScolarDaysList}"
+                ItemDisplayBinding="{Binding FullDate}"/>
+        
+        <segmentedButton:SegmentedButtonControl
+            DefaultColor="SlateGray"
+            SelectedColor="DarkOrange"
+            SelectedIndex="{Binding SelectedCategorie, Mode=TwoWay}"
+            HeightRequest="20"
+            Margin="8, 8, 8, 0">
+            <segmentedButton:SegmentedButtonControl.LabelStyle>
+                <Style TargetType="Label">
+                    <Setter Property="FontSize" Value="12"/>
+                    <Setter Property="FontAttributes" Value="Bold"/>
+                </Style>
+            </segmentedButton:SegmentedButtonControl.LabelStyle>
+            <segmentedButton:SegmentedButtonControl.SegmentedButtons>
+                <segmentedButton:SegmentedButton Title="Entrée"/>
+                <segmentedButton:SegmentedButton Title="Viande"/>
+                <segmentedButton:SegmentedButton Title="Accompagnement"/>
+                <segmentedButton:SegmentedButton Title="Dessert"/>
+            </segmentedButton:SegmentedButtonControl.SegmentedButtons>
+        </segmentedButton:SegmentedButtonControl>
+
+        <Label Margin="0,50,0,0" 
+               HorizontalOptions="Center"
+               Text="{Binding SelectedCategorie, StringFormat='Index de catégorie sélectionné = {0}'}"/>
+        <Label Margin="0,50,0,0" 
+               HorizontalOptions="Center"
+               Text="{Binding NumberChoices, StringFormat='Nombre aliments séléctionnable pour la catégorie = {0}'}"/>
+
+    </StackLayout>
 </ContentPage>

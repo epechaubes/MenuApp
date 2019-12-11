@@ -9,3 +9,4 @@ C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstanda
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.csproj.CopyComplete
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.dll
 C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\Stub.pdb
+C:\Users\emerick.pechaubes\Desktop\MenuApp\Code\MenuApp\Stub\obj\Debug\netstandard2.0\XamlC.stamp

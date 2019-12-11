@@ -62,5 +62,6 @@ namespace Stub
             new User { email = "groot", password = "groot" },
             new User { email = "test", password = "test" },
         };
+
     }
 }

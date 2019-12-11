@@ -1,5 +1,8 @@
-﻿using Xamarin.Forms;
+﻿using System.Collections.Generic;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Model;
+using MenuApp.ViewModels;
 
 namespace MenuApp.Views
 {
@@ -9,6 +12,7 @@ namespace MenuApp.Views
         public ComposeMenuPage()
         {
             InitializeComponent();
+            BindingContext = new ComposeMenuViewModel();
         }
     }
 }
