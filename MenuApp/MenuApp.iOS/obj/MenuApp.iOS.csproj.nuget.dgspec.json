@@ -55,6 +55,14 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "Syncfusion.Xamarin.SfCarousel": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
@@ -141,6 +149,14 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Syncfusion.Xamarin.SfCarousel": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -230,6 +246,14 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "Syncfusion.Xamarin.SfCarousel": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
             "Xamarin.Forms.InputKit": {
               "target": "Package",
               "version": "[3.0.15, )"
@@ -308,6 +332,14 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Syncfusion.Xamarin.SfCarousel": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
@@ -391,6 +423,14 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Syncfusion.Xamarin.SfCarousel": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.3.0.34, )"
             },
             "Xamarin.Forms.InputKit": {
               "target": "Package",

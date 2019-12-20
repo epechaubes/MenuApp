@@ -1,4 +1,4 @@
-	/* Data SHA1: 9775243b7eacc64d5995ad591736029d8b5c3e5a */
+	/* Data SHA1: 564b4185dcd2235d4cc436a140dabf087da61b17 */
 	.arch	armv8-a
 	.file	"typemap.mj.inc"
 
@@ -11,16 +11,16 @@ mj_typemap_header:
 	/* version */
 	.word	1
 	/* entry-count */
-	.word	1426
+	.word	1858
 	/* entry-length */
-	.word	262
+	.word	266
 	/* value-offset */
-	.word	145
+	.word	149
 	.size	mj_typemap_header, 16
 
 	/* Mapping data */
 	.type	mj_typemap, @object
 	.global	mj_typemap
 mj_typemap:
-	.size	mj_typemap, 373613
+	.size	mj_typemap, 494229
 	.include	"typemap.mj.inc"

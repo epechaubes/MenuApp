@@ -8,7 +8,7 @@ namespace MenuApp.ViewModels
     public class BaseViewModel<T> : BaseViewModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:MobileEXPApp.ViewModels.BaseViewModel`1"/> class.
+        /// initialise une nouvelle instance de la classe BaseViewModel.
         /// </summary>
         /// <param name="model">model</param>
         public BaseViewModel(T model)
@@ -17,7 +17,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// the model of this view model
+        /// le model du ViewModel
         /// </summary>
         public T Model
         {
@@ -28,21 +28,21 @@ namespace MenuApp.ViewModels
     }
 
     /// <summary>
-    /// a base view model for a page
+    /// un BaseViewModel pour une page
     /// </summary>
     public class BasePageViewModel : BaseViewModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:MobileEXPApp.ViewModels.BasePageViewModel"/> class.
+        /// initialise une nouvelle instance de la classe BasePageViewModel
         /// </summary>
-        /// <param name="title">title of this page</param>
+        /// <param name="title">titre de la page</param>
         public BasePageViewModel(string title)
         {
             Title = title;
         }
 
         /// <summary>
-        /// title of this page
+        /// titre de la page
         /// </summary>
         public string Title
         {
@@ -53,7 +53,7 @@ namespace MenuApp.ViewModels
     }
 
     /// <summary>
-    /// base class for view models
+    /// classe de base pour un ViewModel
     /// </summary>
     public class BaseViewModel : INotifyPropertyChanged
     {

@@ -12,7 +12,7 @@ namespace MenuApp.Views
         public ComposeMenuPage()
         {
             InitializeComponent();
-            BindingContext = new ComposeMenuViewModel();
+            BindingContext = new ComposeMenuViewModel((App.Current as App).Manager, gridChoices);
         }
     }
 }

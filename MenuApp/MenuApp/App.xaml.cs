@@ -6,7 +6,8 @@ namespace MenuApp
 {
     public partial class App : Application
     {
-        public ManagerViewModel Manager { get; set; } = new ManagerViewModel(new Model.Manager(new SQLite.SQLiteAuthentificationManager()));
+        public ManagerViewModel Manager { get; set; } = new ManagerViewModel(new Model.Manager(new Stub.StubAuthentificationManager(),
+                                                                                               new Stub.StubAliments()));
 
         public App()
         {

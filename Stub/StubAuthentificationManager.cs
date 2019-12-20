@@ -42,7 +42,19 @@ namespace Stub
         /// <remarks>Impossible to add a user in stub. The return simulate a successfull adding</remarks>
         public Task<int> AddUser(string Email, string Password)
         {
-            return Task.FromResult(1); ;
+            if (!users.Exists(t => t.email == Email))
+            {
+                users.Add(new User()
+                {
+                    email = Email,
+                    password = Password
+                });
+                return Task.FromResult(1);
+            }
+            else
+            {
+                throw new Exception("Cet email est déjà utilisé.");
+            }
         }
 
         /// <summary>

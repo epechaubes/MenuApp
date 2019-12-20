@@ -5,22 +5,22 @@ using Xamarin.Forms;
 namespace MenuApp.ViewModels
 {
     /// <summary>
-    /// The view model of the login page
+    /// le ViewModel de la LoginPage
     /// </summary>
     public class LoginViewModel : BaseViewModel
     {
         /// <summary>
-        /// The login command
+        /// commande de login
         /// </summary>
         public Command LoginCommand { get; set; }
 
         /// <summary>
-        /// The delete command
+        /// commande de delete
         /// </summary>
         public Command DeleteAllUsersCommand { get; set; }
 
         /// <summary>
-        /// The command to use to go to the register page
+        /// commande pour aller à la RegisterPage
         /// </summary>
         public Command NavigateToRegisterPageCommand { get; set; }
         = new Command(
@@ -28,7 +28,7 @@ namespace MenuApp.ViewModels
             );
 
         /// <summary>
-        /// The reference to the view model of the manager
+        /// référence au ViewModel du manager
         /// </summary>
         public ManagerViewModel Manager
         {
@@ -36,9 +36,9 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// Initialize a new instance of the <see cref="T:MenuApp.ViewModels.LoginViewModel"/> class
+        /// initialise une nouvelle instance de la classe LoginViewModel
         /// </summary>
-        /// <param name="ManagerVM">The view model of the manager</param>
+        /// <param name="ManagerVM">le ViewModel du manager</param>
         public LoginViewModel(ManagerViewModel ManagerVM) : base()
         {
             Manager = ManagerVM;
@@ -47,7 +47,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The email of the user
+        /// l'email de l'utilisateur
         /// </summary>
         private string email;
         public string Email
@@ -61,7 +61,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The password of the user
+        /// le mot de passe de l'utilisateur 
         /// </summary>
         private string password;
         public string Password
@@ -75,20 +75,20 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// Execute of the login command
+        /// l'execute de la commande de login 
         /// </summary>
         private void LoginExecute()
         {
             if (Manager == null) return;
-            //trie to authenticate
+            //essaie de s'authentifier 
             bool result = Manager.Authenticate(Email, Password);
-            //if it fails ...
+            //en cas d'échec ...
             if(result == false)
             {
                 App.Current.MainPage.DisplayAlert("Echec de l'authentification.", "Identifiant ou mot de passe incorrect.", "Compris");
                 return;
             }
-            //if it's a success, verify the password
+            //en cas dee succès, vérifie le mot de passe
             else
             {
                 App.Current.MainPage.DisplayAlert("Bonjour !", $"Bienvenue {Manager.AuthenticatedUser.email}. Vous êtes désormais sur votre espace personnel.", "Continuer");
@@ -97,12 +97,12 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The can execute of the login command
+        /// le can execute de la commande de login
         /// </summary>
-        /// <returns>can login => true / can't login => false</returns>
+        /// <returns>peut s'identifier => true / ne peut pas => false</returns>
         private bool CanLogin()
         {
-            //Email and Password not null
+            //Email et Password non null
             if (!string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password))
             {
                 return true;
@@ -114,11 +114,11 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The execute of the delete command
+        /// l'execute de la commande de delete
         /// </summary>
         public void DeleteExecute()
         {
-            //Delete all the users on the database
+            //supprime tous les utilisateurs de la base
             Manager.DeleteAllUsers();
             App.Current.MainPage.DisplayAlert("Suppression OK", "Les utilisateurs ont tous été supprimé de la base de donnée.", "Compris");
         }

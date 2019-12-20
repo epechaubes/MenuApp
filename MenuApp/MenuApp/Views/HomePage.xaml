@@ -21,9 +21,9 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Image Grid.Row="1" HorizontalOptions="Center" Source="logo.png"/>
-            <Button Grid.Row="2" Text="Compose Menus" ImageSource="compose.png"/>
-            <Button Grid.Row="3" Text="Check Menus" ImageSource="check.png"/>
-            <Button Grid.Row="4" Text="About" ImageSource="about.png"/>
+            <Button Grid.Row="2" Text="Compose Menus" ImageSource="compose.png" Clicked="Compose_Clicked"/>
+            <Button Grid.Row="3" Text="Check Menus" ImageSource="check.png" Clicked="Check_Clicked"/>
+            <Button Grid.Row="4" Text="About" ImageSource="about.png" Clicked="About_Clicked"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

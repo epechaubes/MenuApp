@@ -12,6 +12,8 @@
           "Model": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
@@ -134,6 +136,68 @@
           "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
             "assemblyVersion": "1.1.13.388",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/17.3.0.34": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "17.3.0.34",
+            "fileVersion": "17.3.0.34"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.3.0.34": {
+        "dependencies": {
+          "Syncfusion.Licensing": "17.3.0.34",
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "17.3451.0.34",
+            "fileVersion": "17.3451.0.34"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll": {
+            "assemblyVersion": "17.3451.0.34",
+            "fileVersion": "17.3451.0.34"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll": {
+            "assemblyVersion": "17.3451.0.34",
+            "fileVersion": "17.3451.0.34"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfCarousel.XForms.dll": {
+            "assemblyVersion": "17.3451.0.34",
+            "fileVersion": "17.3451.0.34"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Syncfusion.Xamarin.DataSource": "17.3.0.34",
+          "Syncfusion.Xamarin.GridCommon": "17.3.0.34",
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll": {
+            "assemblyVersion": "17.3451.0.34",
+            "fileVersion": "17.3451.0.34"
           }
         }
       },
@@ -559,6 +623,8 @@
       "Model/1.0.0": {
         "dependencies": {
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -637,6 +703,48 @@
       "sha512": "sha512-I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
       "path": "sqlitepclraw.core/1.1.13",
       "hashPath": "sqlitepclraw.core.1.1.13.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/17.3.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/PzKO0eaa9mOq2Rdrp0NJ/b8wVYLIIrwlpxL7MBH/R70yuta+lZ2c9dHbGXnU2ORzCH7wDdtP/4zTRP4Uq6SEA==",
+      "path": "syncfusion.licensing/17.3.0.34",
+      "hashPath": "syncfusion.licensing.17.3.0.34.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/17.3.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v0GElFZlhmBJfgkiJRjbcwOErzPO1n/neeUnac9QwVdpHGaM2yRiDSzP3iQMVK25FbzU62xTPEyblRA3A+sE6Q==",
+      "path": "syncfusion.xamarin.core/17.3.0.34",
+      "hashPath": "syncfusion.xamarin.core.17.3.0.34.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vqjw3BD7Fgn2Y4DFmYVxo3enfw46DXjp8vZmcOXToAX0Nu1n7rsiST0KFYqfG0lvdDNdWqVhgKfCElTm1XtbzA==",
+      "path": "syncfusion.xamarin.datasource/17.3.0.34",
+      "hashPath": "syncfusion.xamarin.datasource.17.3.0.34.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wfV7/1kARf6lcygb27pnUWTLVlQb9m/RIV8LIIB3zn5apP5BjtKeTo10m3oUzFLQDt+dtYOic9TiD2PD68jOLA==",
+      "path": "syncfusion.xamarin.gridcommon/17.3.0.34",
+      "hashPath": "syncfusion.xamarin.gridcommon.17.3.0.34.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LNSjKet9jdMt8sePmxwhr4FDWeGPSPXq8wDBy1Aoj0vxsQO/U+Og3Rlx/gf9rnMiJcJaygBitEs6xtCRMUW1Nw==",
+      "path": "syncfusion.xamarin.sfcarousel/17.3.0.34",
+      "hashPath": "syncfusion.xamarin.sfcarousel.17.3.0.34.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gk/yTcG8jaCG/UgSxL2EP+QRVOicYJR4+rEMaDmz3PcXv2B9O6Rlx+Cf1OY+0vt5yg9ANjJtKUq355FK7na7bg==",
+      "path": "syncfusion.xamarin.sflistview/17.3.0.34",
+      "hashPath": "syncfusion.xamarin.sflistview.17.3.0.34.nupkg.sha512"
     },
     "System.Collections/4.0.11": {
       "type": "package",

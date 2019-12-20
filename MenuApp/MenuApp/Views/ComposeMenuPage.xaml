@@ -3,18 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:segmentedButton="clr-namespace:Xamarin.Forms.SegmentedButton;assembly=Xamarin.Forms.SegmentedButton"
              x:Class="MenuApp.Views.ComposeMenuPage">
-    <StackLayout>
-        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
         <Picker Title="Choisir un jour de la semaine"                
                 ItemsSource="{Binding ScolarDaysList}"
-                ItemDisplayBinding="{Binding FullDate}"/>
-        
-        <segmentedButton:SegmentedButtonControl
-            DefaultColor="SlateGray"
-            SelectedColor="DarkOrange"
-            SelectedIndex="{Binding SelectedCategorie, Mode=TwoWay}"
-            HeightRequest="20"
-            Margin="8, 8, 8, 0">
+                ItemDisplayBinding="{Binding FullDate}"
+                Grid.Row="0"/>
+
+        <segmentedButton:SegmentedButtonControl DefaultColor="SlateGray"
+                                                SelectedColor="DarkOrange"
+                                                SelectedIndex="{Binding SelectedCategorie, Mode=TwoWay}"
+                                                HeightRequest="20"
+                                                Margin="8, 8, 8, 0"
+                                                Grid.Row="1">
             <segmentedButton:SegmentedButtonControl.LabelStyle>
                 <Style TargetType="Label">
                     <Setter Property="FontSize" Value="12"/>
@@ -29,12 +37,35 @@
             </segmentedButton:SegmentedButtonControl.SegmentedButtons>
         </segmentedButton:SegmentedButtonControl>
 
-        <Label Margin="0,50,0,0" 
-               HorizontalOptions="Center"
-               Text="{Binding SelectedCategorie, StringFormat='Index de catégorie sélectionné = {0}'}"/>
-        <Label Margin="0,50,0,0" 
-               HorizontalOptions="Center"
-               Text="{Binding NumberChoices, StringFormat='Nombre aliments séléctionnable pour la catégorie = {0}'}"/>
+        <Grid x:Name="gridChoices"
+              Grid.Row="2">
+        </Grid>
 
-    </StackLayout>
+        <CollectionView ItemsSource="{Binding ListAliments}"
+                        Grid.Row="3">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation ="Horizontal"
+                                 HorizontalItemSpacing="5"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Image Source="{Binding alim_imageUrl}"
+                               Margin="5"
+                               HeightRequest="150"
+                               WidthRequest="230"
+                               Aspect="AspectFill"/>
+                        <Label Text="{Binding alim_name}"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               LineBreakMode="WordWrap"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="4"
+                Text="Valider le menu"/>
+    </Grid>
 </ContentPage>

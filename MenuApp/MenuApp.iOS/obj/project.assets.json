@@ -72,6 +72,82 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Syncfusion.Xamarin.DataSource": "17.3.0.34",
+          "Syncfusion.Xamarin.GridCommon": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -251,6 +327,8 @@
           "SQLite": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
           "Stub": "1.0.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
@@ -269,6 +347,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -286,6 +366,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
@@ -304,6 +386,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -387,6 +471,82 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Syncfusion.Xamarin.DataSource": "17.3.0.34",
+          "Syncfusion.Xamarin.GridCommon": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -566,6 +726,8 @@
           "SQLite": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
           "Stub": "1.0.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
@@ -584,6 +746,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -601,6 +765,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
@@ -619,6 +785,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -702,6 +870,82 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Syncfusion.Xamarin.DataSource": "17.3.0.34",
+          "Syncfusion.Xamarin.GridCommon": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -881,6 +1125,8 @@
           "SQLite": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
           "Stub": "1.0.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
@@ -899,6 +1145,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -916,6 +1164,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
@@ -934,6 +1184,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -1017,6 +1269,82 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.34",
+          "Syncfusion.Xamarin.DataSource": "17.3.0.34",
+          "Syncfusion.Xamarin.GridCommon": "17.3.0.34",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1196,6 +1524,8 @@
           "SQLite": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
           "Stub": "1.0.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
@@ -1214,6 +1544,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -1231,6 +1563,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
@@ -1249,6 +1583,8 @@
         "dependencies": {
           "Model": "1.0.0",
           "SQLiteNetExtensions": "2.1.0",
+          "Syncfusion.Xamarin.SfCarousel": "17.3.0.34",
+          "Syncfusion.Xamarin.SfListView": "17.3.0.34",
           "Xamarin.Forms.InputKit": "3.0.15",
           "Xamarin.Forms.SegmentedButton": "1.0.2",
           "sqlite-net-pcl": "1.6.292"
@@ -1418,6 +1754,164 @@
         "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
         "sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
         "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/17.3.0.34": {
+      "sha512": "/PzKO0eaa9mOq2Rdrp0NJ/b8wVYLIIrwlpxL7MBH/R70yuta+lZ2c9dHbGXnU2ORzCH7wDdtP/4zTRP4Uq6SEA==",
+      "type": "package",
+      "path": "syncfusion.licensing/17.3.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.17.3.0.34.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/17.3.0.34": {
+      "sha512": "v0GElFZlhmBJfgkiJRjbcwOErzPO1n/neeUnac9QwVdpHGaM2yRiDSzP3iQMVK25FbzU62xTPEyblRA3A+sE6Q==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/17.3.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.17.3.0.34.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.DataSource/17.3.0.34": {
+      "sha512": "Vqjw3BD7Fgn2Y4DFmYVxo3enfw46DXjp8vZmcOXToAX0Nu1n7rsiST0KFYqfG0lvdDNdWqVhgKfCElTm1XtbzA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.datasource/17.3.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.dll",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.XML",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.dll",
+        "syncfusion.xamarin.datasource.17.3.0.34.nupkg.sha512",
+        "syncfusion.xamarin.datasource.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.GridCommon/17.3.0.34": {
+      "sha512": "wfV7/1kARf6lcygb27pnUWTLVlQb9m/RIV8LIIB3zn5apP5BjtKeTo10m3oUzFLQDt+dtYOic9TiD2PD68jOLA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.gridcommon/17.3.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
+        "syncfusion.xamarin.gridcommon.17.3.0.34.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfCarousel/17.3.0.34": {
+      "sha512": "LNSjKet9jdMt8sePmxwhr4FDWeGPSPXq8wDBy1Aoj0vxsQO/U+Og3Rlx/gf9rnMiJcJaygBitEs6xtCRMUW1Nw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfcarousel/17.3.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfCarousel.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfCarousel.Android.xml",
+        "lib/MonoAndroid10/Syncfusion.SfCarousel.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfCarousel.XForms.XML",
+        "lib/MonoAndroid10/Syncfusion.SfCarousel.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCarousel.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCarousel.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfCarousel.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfCarousel.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfCarousel.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfCarousel.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfCarousel.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfCarousel.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfCarousel.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfCarousel.XForms.dll",
+        "syncfusion.xamarin.sfcarousel.17.3.0.34.nupkg.sha512",
+        "syncfusion.xamarin.sfcarousel.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfListView/17.3.0.34": {
+      "sha512": "gk/yTcG8jaCG/UgSxL2EP+QRVOicYJR4+rEMaDmz3PcXv2B9O6Rlx+Cf1OY+0vt5yg9ANjJtKUq355FK7na7bg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sflistview/17.3.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
+        "syncfusion.xamarin.sflistview.17.3.0.34.nupkg.sha512",
+        "syncfusion.xamarin.sflistview.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1816,6 +2310,8 @@
       "SQLite >= 1.0.0",
       "SQLiteNetExtensions >= 2.1.0",
       "Stub >= 1.0.0",
+      "Syncfusion.Xamarin.SfCarousel >= 17.3.0.34",
+      "Syncfusion.Xamarin.SfListView >= 17.3.0.34",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249",
       "Xamarin.Forms.InputKit >= 3.0.15",
@@ -1877,6 +2373,14 @@
           "SQLiteNetExtensions": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "Syncfusion.Xamarin.SfCarousel": {
+            "target": "Package",
+            "version": "[17.3.0.34, )"
+          },
+          "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[17.3.0.34, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

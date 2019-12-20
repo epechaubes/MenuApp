@@ -15,13 +15,16 @@ namespace Model
         /// </summary>
         public IAuthentificationManager AuthentificationManager { get; set; }
 
+        public IAlimentsManager AlimentsManager { get; set; }
+
         /// <summary>
         /// Initialize a new instance of the <see cref="T:Model.Manager"/> class
         /// </summary>
         /// <param name="authMgr">The manager for authentification</param>
-        public Manager (IAuthentificationManager authMgr)
+        public Manager (IAuthentificationManager authMgr, IAlimentsManager alimMgr)
         {
             AuthentificationManager = authMgr;
+            AlimentsManager = alimMgr;
         }
 
         /// <summary>
@@ -46,5 +49,9 @@ namespace Model
         /// Delete all the users in the database
         /// </summary>
         public void DeleteAllUsers() => AuthentificationManager.DeleteAllUsers();
+
+        public List<Aliments> GetAllAliments() => AlimentsManager.GetAllAliments();
+
+        public List<Aliments> GetAlimentsByCategory(int cate) => AlimentsManager.GetAlimentsByCategory(cate);
     }
 }

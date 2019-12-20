@@ -10,24 +10,24 @@ namespace MenuApp.ViewModels
     class RegisterViewModel : BaseViewModel
     {
         /// <summary>
-        /// Command for create a new account
+        /// commande pour créer un compte
         /// </summary>
         public Command RegisterCommand { get; set; }
 
         /// <summary>
-        /// Command for go back to the login page
+        /// commande pour revenir à la page de login
         /// </summary>
         public Command GoBackToLoginCommand { get; set; }
 
         /// <summary>
-        /// The reference to the view model of the manager
+        /// référence au ViewModel du manager
         /// </summary>
         public ManagerViewModel Manager { get; set; }
 
         /// <summary>
-        /// Initialize a new instance of the <see cref="T:MenuApp.ViewModels.RegisterViewModel"/> class
+        /// initialise une nouvelle instance de la classe RegisterViewModel
         /// </summary>
-        /// <param name="managerVM">The view model of the manager</param>
+        /// <param name="managerVM">le ViewModel du manager</param>
         public RegisterViewModel(ManagerViewModel managerVM)
         {
             Manager = managerVM;
@@ -36,7 +36,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The email of the user
+        /// email de l'utilisateur
         /// </summary>
         private string email;
         public string Email
@@ -50,7 +50,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The password of the user
+        /// password de l'utilisateur
         /// </summary>
         private string password;
         public string Password
@@ -64,7 +64,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The verification of the password
+        /// vérification du password
         /// </summary>
         private string confirmPassword;
         public string ConfirmPassword
@@ -78,19 +78,19 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The execute of the register command
+        /// l'execute de la commande register
         /// </summary>
         public void RegisterExecute()
         {
-            //trie to create the account
+            //essaye de créer un compte
             try
             {
                 int registerResult = Manager.AddUser(email, password).Result;
-                //Go back to the login page and display a message
+                //retourne à la page de login et affiche un message
                 App.Current.MainPage = new Views.LoginPage();
                 App.Current.MainPage.DisplayAlert("Le compte utilisateur a bien été crée", "Vous pouvez désormais vous connecter avec vos identifiants.", "Compris");
             }
-            //if an account with this email already exist, display an alert
+            //si un compte avec ce mail existe déjà, affiche un message
             catch (Exception e)
             {
                 App.Current.MainPage.DisplayAlert("Erreur", "Un compte utilisant cette adresse mail existe déjà.", "Compris");
@@ -99,9 +99,9 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The can execute of the register command
+        /// le can execute de la commande regiser
         /// </summary>
-        /// <returns>True if the password and confirmPassword are equals</returns>
+        /// <returns>true si password et verif password sont égaux</returns>
         public bool CanRegister()
         {
             if (ConfirmPassword == Password) { return true; }
@@ -109,7 +109,7 @@ namespace MenuApp.ViewModels
         }
 
         /// <summary>
-        /// The execute of the go back to login page command
+        /// l'execute de la commande go back to login page
         /// </summary>
         public void GoBackExecute()
         {
